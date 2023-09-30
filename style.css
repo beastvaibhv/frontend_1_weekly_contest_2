@@ -1,0 +1,44 @@
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo{
+    align-self: self-start;
+    margin: 0.7rem;
+}
+.nav-items>ul{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+ul{
+    list-style-type: none;
+}
+li{
+    margin-inline: 0.5rem; 
+}
+.search-container{
+    margin-top: 0.7rem;
+    margin:0.5rem;
+    display:flex;
+    justify-content: space-between;
+}
+.search-container>div{
+    margin-inline: 0.5rem;
+}
+.cart {
+ display: inline-block;
+ top: -1rem;
+}
